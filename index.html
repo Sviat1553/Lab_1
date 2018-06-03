@@ -1,0 +1,39 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Бики і корови - гра на логіку</title>
+
+        <link rel="stylesheet" href="css/main.css">
+
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">Ваш браузер <strong>є застарілим</strong>. Будь ласка,  <a href="http://browsehappy.com/">обновіть його</a>, щоб отримати найкращий досвід .</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+
+        <div>
+            <img src="./img/screen-3.jpg">
+            <div><input type="button" onclick="startGame()" value="Розпочати гру" id="startButton" class="btn"></div>
+         <div id="game">   <div id="1">
+                <p>Комбінація не містить цифр, які повторюються</p>
+            </div>
+            <div id="2">Введіть комбінацію: <input type="number" name="usercod" id="usercode" min="0123" max="9876"><br>
+                <input type="button" onclick="checkUserCode()" value="Відправити" class="btn"><br>
+                <input type="button" onclick="restartGame()" value="Нова гра" class="btn">
+            </div>
+         </div>
+        </div>
+
+
+
+
+        <script src="js/bullscows.js"></script>
+        
+
+
+    </body>
+</html>
