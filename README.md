@@ -1,2 +1,2 @@
 # Lab_1
-Application Bulls_Cows
+Бики і Корови реалізація гри на JS.
